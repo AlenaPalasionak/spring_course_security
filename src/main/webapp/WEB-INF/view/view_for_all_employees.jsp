@@ -12,7 +12,7 @@
 
     <br><br>
 
-<security:authorize access="hasRole('MANGER')">
+<security:authorize access="hasRole('MANAGER')">
     <input type="button" value="Performance" onclick="window.location.href='manager-info'">
     Only for managers
 </security:authorize>
